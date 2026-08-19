@@ -1,0 +1,15 @@
+.venv/
+credentials.json
+token.json
+.env
+*.log
+.sent_*
+LAST_STATUS.txt
+__pycache__/
+*.pyc
+*.pdf
+
+# 개인정보/내부용 문서 — 공개 리포에는 포함하지 않음
+deploy_gcp.sh
+nesletter-check.md
+nesletter-check.txt

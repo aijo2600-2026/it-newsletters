@@ -1,0 +1,14 @@
+# 시크릿·불필요 파일은 이미지에 넣지 않는다(토큰은 Secret Manager로 주입).
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.log
+*.pdf
+token.json
+credentials.json
+.sent_*
+LAST_STATUS.txt
+Dockerfile
+.dockerignore
